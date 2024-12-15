@@ -15,7 +15,7 @@ transactions.add("DANNON", -200, "2022-10-31T15:00:00Z");
 transactions.add("MILLER COORS", 10000, "2022-11-01T14:00:00Z");
 transactions.add("DANNON", 1000, "2022-11-02T14:00:00Z");
 
-transactions.spend(transactions,5000);
+transactions.spend(5000);
 
 cout<<"DANNON:"<<transactions.getbalance("DANNON")<<endl;
 cout<<"UNILEVER:"<<transactions.getbalance("UNILEVER")<<endl;
