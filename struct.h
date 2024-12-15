@@ -11,9 +11,9 @@ Node* next;
 Node(string u, int p, string t){
 user=u;
 points=p;
-time=t;
+time=t;   //initialize
 prev=nullptr;
 next=nullptr;
-};
+}
 
 };
