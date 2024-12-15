@@ -3,20 +3,33 @@
 using namespace std;
 
 class Transactions{
-    private:
+private:
     Node* head;
     Node* tail;
     
-    public:        //initialize 
-    Transactions(){
-        head=nullptr;
-        tail=nullptr;
-    };
+void deleteList(){
+Node* current=head;
+while(current != nullptr){
+    Node* next=current->next;
+    delete current;
+    current=next;
+}
+ head=tail=nullptr;
+}
     
+public:        
+    Transactions(){
+        head=nullptr;  //initialize 
+        tail=nullptr;
+    }
+//destructor
+~Transactions(){
+    deleteList();
+}
 //add new transaction
 void add(string user,int points,string time){
     Node* n = new Node{user,points,time};
-if(head==NULL){
+if(head==nullptr){
     head=tail=n;
 } 
  else{
@@ -27,8 +40,8 @@ if(head==NULL){
 }
 
 //spend points
- void spend(Transactions transactions,int points) {
-    Node* current=transactions.head;
+ void spend(int points) {
+    Node* current=head;
 while(current != nullptr && points>0){
     if(current->points<=points){
     points-=current->points;
