@@ -19,7 +19,7 @@ transactions.spend(5000);
 
 cout<<"DANNON:"<<transactions.getbalance("DANNON")<<endl;
 cout<<"UNILEVER:"<<transactions.getbalance("UNILEVER")<<endl;
-cout<<"MILLER COORS:"<<transactions.getbalance("MILLER COORS");
+cout<<"MILLER COORS:"<<transactions.getbalance("MILLER COORS")<<endl;
 
 }
 
