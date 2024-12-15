@@ -1,0 +1,21 @@
+1. Why did you choose the tools, libraries, and language you used for the coding exercise?
+  -The reason I chose C++ for this task is due to my strong background in the language and my experience implementing data structures in C++.
+C++ offers a wide range of data structures to choose from, such as dynamic allocation, singly linked lists, doubly linked lists, binary search
+trees, and more.
+
+  -I chose to use a doubly linked list because it allows us to add, retrieve, and delete elements anywhere in the list. This can be crucial when
+wanting to pull a customer's transactions from a past time. Overall, using a doubly linked list boosts efficiency by performing tasks in constant
+time while keeping everything organized.
+
+2. What are the advantages and disadvantages of your solution?
+  Advantage
+  -Destructor 
+  -Double linked list
+  -Flexible
+  Disadvantage
+  -Memory consumption
+  -Complex management
+
+3. What has been a favorite school/personal project thus far? What about it that challenged you?
+  -My favorite project in my CS career has been creating a lightning strike calculator. It wasn't particularly challenging, but I enjoyed it because
+I applied what I knew from studying computer science and physics to answer a real-life question I often asked myself while watching lightning strikes.
