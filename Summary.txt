@@ -7,6 +7,9 @@ trees, and more.
 wanting to pull a customer's transactions from a past time. Overall, using a doubly linked list boosts efficiency by performing tasks in constant
 time while keeping everything organized.
 
+  -I didn't know how to implement a REST API, so I used AI as an alternative. It guided me to create a "simulation" where the code is controlled 
+from there.
+
 2. What are the advantages and disadvantages of your solution?
   Advantage
   -Destructor 
