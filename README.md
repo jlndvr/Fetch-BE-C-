@@ -7,3 +7,4 @@
 - [CandidateHub](https://github.com/jlndvr/Candidate-Linked-List-Manager)
 
 <h2>Summary</h2>
+-[Summary](https://github.com/jlndvr/Fetch-BE-C-/blob/main/Summary.txt)
