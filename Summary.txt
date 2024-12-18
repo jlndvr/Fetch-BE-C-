@@ -12,7 +12,7 @@ wanting to pull a customer's transactions from a past time. Overall, using a dou
 2. What are the advantages and disadvantages of your solution?
   Advantage
   -Destructor 
-  -Double linked list
+  -Doubly linked list
   -Flexible
   Disadvantage
   -Memory consumption
