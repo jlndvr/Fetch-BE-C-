@@ -9,7 +9,10 @@
   - [struct.cpp](https://github.com/jlndvr/Fetch-BE-C-/blob/main/struct.cpp)
 - <b>Summary</b>
   - [Summary](https://github.com/jlndvr/Fetch-BE-C-/blob/main/Summary.txt)
-  
+- <b>Attempt at creating a REST API in C++:</b>
+  - [main1.cpp](https://github.com/jlndvr/Fetch-BE-C-/blob/main/main1.cpp)
+  - [CMakeLists.txt](https://github.com/jlndvr/Fetch-BE-C-/blob/main/CMakeLists.txt)
+
 <h2> 🤳 Connect with me :</h2>
 
 [<img align="left" alt="JosueLandaverde | LinkedIn" width="22px" src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" />][linkedin]
